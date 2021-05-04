@@ -241,6 +241,19 @@ header {
   border-bottom: 2px solid #e67e22;
 }
 
+/* Mobile Navigation*/
+.mobile-nav-icon {
+  float: right;
+  margin-top: 30px;
+  cursor: pointer;
+  display: none;
+}
+
+.mobile-nav-icon ion-icon {
+  font-size: 200%;
+  color: #fff;
+}
+
 /* Sticky Navigation */
 .sticky {
   position: fixed;
@@ -579,4 +592,24 @@ footer p {
 .logo-google:hover,
 .logo-google:active {
   color: #dd4b39;
+}
+
+/*------------------------------------------------*/
+/* ANIMATIONS */
+/*------------------------------------------------*/
+.js--wp-1,
+.js--wp-2,
+.js--wp-3 {
+  opacity: 0;
+  animation-duration: 1s;
+}
+
+.js--wp-4 {
+  animation-duration: 1s;
+}
+
+.js--wp-1.animate__animated,
+.js--wp-2.animate__animated,
+.js--wp-3.animate__animated {
+  opacity: 1;
 }

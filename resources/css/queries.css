@@ -76,10 +76,41 @@
     width: 100%;
     margin: 0 0 4% 0;
   }
+  .main-nav {display: none;}
 
   .main-nav {
-    display: none;
+    float: left;
+    margin-top: 25px;
+    margin-left: 25px;
   }
+
+  .main-nav li {
+    display: block;
+    padding: 10px 0;
+    font-size: 100%;
+  }
+
+  .main-nav li a:link,
+  .main-nav li a:visited {
+    display: block;
+    border: 0;
+  }
+
+  .mobile-nav-icon {
+    display: inline-block;
+  }
+
+  .sticky .main-nav {
+    margin-top: 10px;
+  }
+  
+  .sticky .main-nav li a:link,
+  .sticky .main-nav li a:visited {
+    padding: 10px 0;
+  }
+  .sticky .mobile-nav-icon {margin-top: 10px}
+  .sticky .mobile-nav-icon ion-icon {color: #555}
+
   h1 {
     font-size: 180%;
   }
